@@ -1,0 +1,11 @@
+def find_largest_number(numbers):
+    if not numbers: 
+        return None
+    large = numbers[0]
+    for d in numbers:
+        if d > large:
+            large = d
+    return large
+numbers = [10, 8, 15, 6]
+large = find_largest_number(numbers)
+print(large)

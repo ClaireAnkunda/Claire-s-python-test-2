@@ -1,0 +1,6 @@
+input = "am hungry"
+comparison = "am satisified"
+if input == comparison:
+   print("it is the same string")
+else:
+   print("it is not the same string")

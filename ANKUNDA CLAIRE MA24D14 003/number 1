@@ -1,0 +1,5 @@
+def even_numbers(digits):
+    return[x for x in digits if x % 2 == 0]
+digits = [1,2,3,4,5,6]
+even = even_numbers(digits)
+print(even)
